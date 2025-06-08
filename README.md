@@ -114,3 +114,18 @@ public class MyFramelessForm : FramelessForm
 - **Button Events**: Process button clicks and update `drawFigure`
 - **Resize Events**: Maintain layout on window size changes
 
+### Drawing Pattern
+1. Call `base.OnPaint(e)` first
+2. Use `switch (drawFigure)` for different states
+3. Call `this.Invalidate()` to trigger repaint
+
+## Dependencies
+- System.Drawing
+- System.Drawing.Drawing2D
+- System.Windows.Forms
+
+## Best Practices
+1. Always call `base.OnPaint(e)` in overrides
+2. Use `drawFigure` to control custom drawing states
+3. Set custom buttons with `InitializeButtons()` in constructor
+4. Dispose of custom graphics resources properly
