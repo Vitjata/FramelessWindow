@@ -119,12 +119,7 @@ public class MyFramelessForm : FramelessForm
 2. Use `switch (drawFigure)` for different states
 3. Call `this.Invalidate()` to trigger repaint
 
-## Dependencies
-- System.Drawing
-- System.Drawing.Drawing2D
-- System.Windows.Forms
-
-## Best Practices
+### Best Practices
 1. Always call `base.OnPaint(e)` in overrides
 2. Use `drawFigure` to control custom drawing states
 3. Set custom buttons with `InitializeButtons()` in constructor
