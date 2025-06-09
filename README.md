@@ -2,6 +2,8 @@
 
 A custom Windows Forms base class that creates modern, borderless windows with built-in window controls, drag functionality, and customizable button interface.
 
+![Visualization](./Untitled1.jpg)
+
 ## Overview
 
 `FramelessForm` is designed as a base class for creating sleek, frameless applications with custom window management. It provides all the essential window functionality while maintaining a modern, borderless appearance.

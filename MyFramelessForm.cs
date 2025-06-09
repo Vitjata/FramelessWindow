@@ -35,7 +35,7 @@ namespace MyFramelessApp
                     g.FillEllipse(yellowBrush, x, y, 200, 200);
                     break;
                 case 2:
-                    string text = "Hello, Viktor!"; 
+                    string text = "Hello, World!"; 
                     Font font = new Font("Arial", 22); 
                     Brush textBrush = new SolidBrush(Color.Black); 
                     SizeF textSize = g.MeasureString(text, font); 
